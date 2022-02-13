@@ -4,6 +4,12 @@
 # que la pieza cuya longitud esté comprendida en el rango de 1.20 y 1.30 son aptas. 
 # Imprimir por pantalla la cantidad de piezas aptas que hay en el lote.
 
+print("###############################################")
+print("########\tWalter Santillán    ###########")
+print("###############################################")
+
+print("Programa que pide ingresar por teclado la cantidad de piezas a procesar\n")
+
 x = 1
 cantPiezasAptas = 0
 
@@ -16,5 +22,5 @@ while x <= cantPiezasProcesar:
     x = x + 1
 
 
-print("La cantidad de peizas aptas son: ", cantPiezasAptas) 
+print("\nLa cantidad de peizas aptas son: ", cantPiezasAptas) 
 
