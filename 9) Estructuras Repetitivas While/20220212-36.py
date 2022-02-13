@@ -4,11 +4,16 @@
 # (este operador retorna el resto de la división de dos valores, por ejemplo 11%2 retorna un 1):
 #        if valor % 2 == 0:  
 
+print("###############################################")
+print("########\tWalter Santillán    ###########")
+print("###############################################")
+
+print("\n<<Carga de números enteros>>")
 pares = 0
 impares = 0
 x = 1
 
-n = int(input("Cuantos numeros va a ingresar: "))
+n = int(input("\nCuantos numeros va a ingresar: "))
 
 while x <= n:
     valor = int(input("Ingresar valor: "))
@@ -18,5 +23,5 @@ while x <= n:
         impares = impares + 1
     x = x + 1
 
-print("Los valores pareson son: ", pares)
+print("\nLos valores pares son: ", pares)
 print("Los valores impares son: ", impares)
